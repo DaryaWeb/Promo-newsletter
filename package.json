@@ -1,0 +1,57 @@
+{
+  "_inBundle": false,
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#DEV:/",
+    "#USER"
+  ],
+  "_where": "D:\\Test task",
+  "scripts": {
+    "build": "gulp style",
+    "start": "gulp serve"
+  },
+  "deprecated": false,
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "code",
+    "quality",
+    "style",
+    "lint",
+    "linter",
+    "stylelint",
+    "validate",
+    "code style",
+    "strict",
+    "check",
+    "checker",
+    "verify",
+    "enforce",
+    "hint"
+  ],
+  "license": "MIT",
+  "version": "0.1.1",
+  "devDependencies": {
+    "autoprefixer": "^9.1.3",
+    "browser-sync": "^2.26.0",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-plumber": "^1.2.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.1"
+  },
+  "dependencies": {
+    "gulp": "^3.9.1"
+  },
+  "name": "test-task",
+  "main": "gulpfile.js",
+  "author": "",
+  "description": ""
+}
