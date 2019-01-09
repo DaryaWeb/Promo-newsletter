@@ -273,3 +273,65 @@ html body {
     border-left: 69px solid transparent;
   }
 }
+@media screen and (max-width: 991px) {
+  .hello-text {
+    margin-top: 220px;
+    .hello-text__description {
+      width: 83%;
+    }
+  }
+  .content__wrapper .content__heading--text {
+    width: 77%;
+  }
+  .content__cite--color {
+    display: block;
+    height: auto;
+  }
+  .content__cite--color .cite-text__left::after {
+    content: '';
+    width: 12%;
+    height: 1px;
+    top: auto;
+    right: auto;
+    bottom: 0;
+    left: 15px;
+  }
+  .banners .banners__title {
+    width: 76%;
+  }
+  .banners__wrapper {
+    display: flex;
+    padding-left: 15px;
+    .banners__image {
+      margin: 0;
+    }
+    .banners-text {
+      width: auto;
+      margin: 0;
+    }
+    .banners-link {
+      width: 90%;
+      padding-bottom: 10px;
+      text-align: left;
+      padding-left: 10%;
+      margin: 0;
+    }
+    .banners__description {
+      width: 90%;
+      padding-left: 10%;
+      text-align: left;
+      margin: 0;
+    }
+  }
+  .footer__phone {
+    border-bottom: 1px solid #e8e8e8;
+    padding-bottom: 10px;
+  }.footer__wrapper {
+       .adress {
+         width: 100%;
+       }
+         .company-adress {
+           width: 100%;
+         }
+     }
+}
